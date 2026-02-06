@@ -3,7 +3,7 @@ import UseEffectDemo from "./hooksReview/UseEffectDemo.jsx";
 import UseReducerDemo from "./hooksReview/UseReducerDemo.jsx";
 //import UseMemoDemo from "./hooksReview/UseMemoDemo.jsx";
 import UseRefDemo from "./hooksReview/UseRefDemo.jsx";
-// import UseCallbackDemo from "./hooksReview/UseCallbackDemo.jsx";
+import UseCallbackDemo from "./hooksReview/UseCallbackDemo.jsx";
 // import MemoDemo from "./hooksReview/MemoDemo.jsx";
 
 function App() {
@@ -14,7 +14,8 @@ function App() {
       {/* <UseStateDemo /> */}
       {/* <UseEffectDemo /> */}
       {/* <UseRefDemo/> */}
-      <UseRefDemo />
+      {/* <UseRefDemo /> */}
+      <UseCallbackDemo />
     </div>
   );
 }
