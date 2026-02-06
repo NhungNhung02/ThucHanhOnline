@@ -1,10 +1,10 @@
-import UseStateDemo from "./hooks-review/UseStateDemo";
-import UseEffectDemo from "./hooks-review/UseEffectDemo";
-import UseReducerDemo from "./hooks-review/UseReducerDemo";
-import UseMemoDemo from "./hooks-review/UseMemoDemo";
-import UseRefDemo from "./hooks-review/UseRefDemo";
-import UseCallbackDemo from "./hooks-review/UseCallbackDemo";
-import MemoDemo from "./hooks-review/MemoDemo";
+import UseStateDemo from "./hooksReview/UseStateDemo.jsx";
+// import UseEffectDemo from "./hooks-review/UseEffectDemo.jsx";
+// import UseReducerDemo from "./hooks-review/UseReducerDemo.jsx";
+// import UseMemoDemo from "./hooks-review/UseMemoDemo.jsx";
+// import UseRefDemo from "./hooks-review/UseRefDemo.jsx";
+// import UseCallbackDemo from "./hooks-review/UseCallbackDemo.jsx";
+// import MemoDemo from "./hooks-review/MemoDemo.jsx";
 
 function App() {
   return (
@@ -12,12 +12,6 @@ function App() {
       <h1>React Hooks Review</h1>
 
       <UseStateDemo />
-      <UseEffectDemo />
-      <UseReducerDemo />
-      <UseMemoDemo />
-      <UseRefDemo />
-      <UseCallbackDemo />
-      <MemoDemo />
     </div>
   );
 }
