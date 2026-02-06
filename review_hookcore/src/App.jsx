@@ -1,7 +1,7 @@
 import UseStateDemo from "./hooksReview/UseStateDemo.jsx";
 import UseEffectDemo from "./hooksReview/UseEffectDemo.jsx";
 import UseReducerDemo from "./hooksReview/UseReducerDemo.jsx";
-//import UseMemoDemo from "./hooksReview/UseMemoDemo.jsx";
+import UseMemoDemo from "./hooksReview/UseMemoDemo.jsx";
 import UseRefDemo from "./hooksReview/UseRefDemo.jsx";
 import UseCallbackDemo from "./hooksReview/UseCallbackDemo.jsx";
 // import MemoDemo from "./hooksReview/MemoDemo.jsx";
@@ -15,7 +15,8 @@ function App() {
       {/* <UseEffectDemo /> */}
       {/* <UseRefDemo/> */}
       {/* <UseRefDemo /> */}
-      <UseCallbackDemo />
+      {/* <UseCallbackDemo /> */}
+      <UseMemoDemo />
     </div>
   );
 }
