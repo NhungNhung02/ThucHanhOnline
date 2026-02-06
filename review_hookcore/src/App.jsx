@@ -1,17 +1,18 @@
 import UseStateDemo from "./hooksReview/UseStateDemo.jsx";
-// import UseEffectDemo from "./hooks-review/UseEffectDemo.jsx";
-// import UseReducerDemo from "./hooks-review/UseReducerDemo.jsx";
-// import UseMemoDemo from "./hooks-review/UseMemoDemo.jsx";
-// import UseRefDemo from "./hooks-review/UseRefDemo.jsx";
-// import UseCallbackDemo from "./hooks-review/UseCallbackDemo.jsx";
-// import MemoDemo from "./hooks-review/MemoDemo.jsx";
+import UseEffectDemo from "./hooksReview/UseEffectDemo.jsx";
+// import UseReducerDemo from "./hooksReview/UseReducerDemo.jsx";
+// import UseMemoDemo from "./hooksReview/UseMemoDemo.jsx";
+// import UseRefDemo from "./hooksReview/UseRefDemo.jsx";
+// import UseCallbackDemo from "./hooksReview/UseCallbackDemo.jsx";
+// import MemoDemo from "./hooksReview/MemoDemo.jsx";
 
 function App() {
   return (
     <div>
       <h1>React Hooks Review</h1>
 
-      <UseStateDemo />
+      {/* <UseStateDemo /> */}
+      <UseEffectDemo />
     </div>
   );
 }
